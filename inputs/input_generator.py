@@ -1,4 +1,5 @@
 from random import randint
+import sys
 
 def generate_map(col=5, row=5, M=8, T=4, Tmax=3, A=5, Smax=10):
     assert A + T + M <= col * row, "La somme du nombre de montagnes, du nombre de trésors et du nombre d'aventuriers ne doit pas dépasser la taille de la carte !"
@@ -20,4 +21,9 @@ def generate_map(col=5, row=5, M=8, T=4, Tmax=3, A=5, Smax=10):
             sequence += movement[randint(0, 3)]
         print(f'A - Aventurier{k} - {a[0]} - {a[1]} - {orientation[randint(0, 3)]} - {sequence}', end='\n')
 
-generate_map(5, 9, 10, 15, 5, 20, 30)
+with open("inputs/input_generated.txt", 'w') as input_file:
+    sys.stdout = input_file
+    generate_map()
+    sys.stdout = sys.__stdout__
+    print("Un nouveau fichier input_generated.txt a été créé. Vous pouvez le consulter dans le dossier inputs.")
+

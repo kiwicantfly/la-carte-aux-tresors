@@ -60,10 +60,20 @@ def main(input_file):
             else: continue
 
 
-    ## --------------------------------------------- Affichage final --------------------------------------------- ##
+    ## -------------------------------------------- Fichier de sortie -------------------------------------------- ##
 
+    with open("outputs/output.txt", 'w') as output_file:
+        sys.stdout = output_file
+        map.display()
+        group.display()
+        sys.stdout = sys.__stdout__
+        print("Le fichier output.txt a été créé avec succès. Vous pouvez le consulter dans le dossier outputs.")
+
+    # Affichage dans la console
     map.display()
     group.display()
+
+
 
 
 
