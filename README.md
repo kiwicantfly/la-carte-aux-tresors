@@ -1,6 +1,6 @@
 ## Présentation
 
-Bonjour ! Voici le programme que j'ai écrit dans le cadre de l'exercice pratique 'La carte aux trésors'. J'espère que le gouvernement péruvien en sera satisfait !
+Bonjour ! Voici le programme que j'ai écrit dans le cadre de l'exercice pratique _La carte aux trésors_. J'espère que le gouvernement péruvien en sera satisfait !
 
 J'ai choisi de l'écrire en Python car c'est le langage avec lequel j'ai le plus d'affinité. Une approche orientée objet m'a semblé naturelle pour cet exercice. Ce choix a permis de d'organiser mon code et de le rendre maintenable. 
 
