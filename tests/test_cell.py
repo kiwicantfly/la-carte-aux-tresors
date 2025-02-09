@@ -8,4 +8,3 @@ class TestCell(unittest.TestCase):
 
     def test_accessibility(self):
         self.assertTrue(self.cell.getAccessibility())
-

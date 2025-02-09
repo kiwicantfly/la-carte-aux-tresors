@@ -46,4 +46,3 @@ class TestCell(unittest.TestCase):
         self.assertEqual(self.adventurer.getNextCell(), (1, 2))
         self.adventurer.setOrientation('D')
         self.assertEqual(self.adventurer.getNextCell(), (0, 1))
-        self.adventurer.setOrientation('D')

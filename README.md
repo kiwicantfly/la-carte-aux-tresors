@@ -2,11 +2,11 @@
 
 Bonjour ! 
 
-J'ai choisi Python comme langage car c'est celui avec lequel j'ai le plus d'affinité, avec une approche orientée objet pour structurer mon code.
+J'ai choisi Python comme langage car c'est celui avec lequel j'ai le plus d'affinité. Une approche orientée objet m'a semblé naturelle pour cet exercice. Ce choix a permis de bien structurer mon code et de le rendre maintenable. 
 
 J'ai fait les hypothèses suivantes : 
-* Les lignes du fichier d'entrée apparaissent toujours suivant l'ordre C, M, T, A.
-* Aucun aventurier n'a de séquence vide.
+* La première ligne du fichier d'entrée est toujours celle qui donne les dimensions de la carte.
+* Au départ, aucun aventurier n'a de séquence vide.
 
 ## Description des classes
 
@@ -23,7 +23,7 @@ Voici la correspondance entre le type de cellule et les valeurs de ses attributs
 | **Valeur** | 0  | -1  | t >= 1  | 0  | t >= 1  |
 | **Accessibilité** | True  | False  | True  | False  | False  |
 
-La valeur -1 pour les cellules de type Montagne permet de faire la distinction avec une cellule de type Aventurier. 
+La valeur -1 pour les cellules de type Montagne permet de faire la distinction avec les cellules de type Aventurier. 
 
 ### Map
 
@@ -42,7 +42,7 @@ Un aventurier est implémenté grâce à la classe **Adventurer** qui contient p
 
 La classe **Group** correspond à un groupe d'aventuriers, c'est à dire une liste d'aventuriers de la classe **Adventurer**.
 
-## Fonctionnement
+## Programme principal
 
 Le programme **main** fonctionne de la manière suivante :
 1. Récupération du fichier d'entrée pour la création de la carte et du groupe d'aventuriers. 
@@ -50,7 +50,7 @@ Le programme **main** fonctionne de la manière suivante :
 3. Création du fichier de sortie.
 
 ## Utilisation
-Le fichier d'entrée doit être au format txt et respecter le format indiqué dans l'énoncé. Le fichier de sortie output.txt est situé dans le dossier outputs.
+Le fichier d'entrée doit être au format txt et l'input doit respecter le format indiqué dans l'énoncé. Le fichier de sortie output.txt est situé dans le dossier outputs. Le résultat est aussi affiché dans le terminal.
 ### Tester le programme avec un fichier d'entrée
 ```
 python main.py <chemin_relatif_du_fichier>
@@ -63,6 +63,7 @@ python -m unittest discover tests/
 ```
 python -m unittest tests.<nom_du_test>
 ```
+Attention, il ne faut pas inclure le .py dans le nom du test.
 ### Générer une carte aléatoire
 J'ai créé un programme qui génère une carte aléatoire en lançant la commande suivante :
 ```
