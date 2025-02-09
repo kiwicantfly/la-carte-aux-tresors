@@ -1,7 +1,7 @@
 from random import randint
 
 def generate_map(col=5, row=5, M=8, T=4, Tmax=3, A=5, Smax=10):
-    assert A + T + M <= col * row
+    assert A + T + M <= col * row, "La somme du nombre de montagnes, du nombre de trésors et du nombre d'aventuriers ne doit pas dépasser la taille de la carte !"
     pick = [(k%col, k//col) for k in range(col*row)]
     print(f'C - {col} - {row}', end='\n')
     for _ in range(M):

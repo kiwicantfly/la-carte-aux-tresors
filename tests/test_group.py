@@ -7,7 +7,7 @@ class TestCell(unittest.TestCase):
         input_file = [
             'A - Lara - 1 - 1 - N - AAAAAA\n',
             'A - Cara - 2 - 1 - S - ADGD\n',
-            'A - Dara - 1 - 2 - E - A\n'
+            'A - Dara - 1 - 2 - E - A'
         ]
         self.group = Group(input_file)
 

@@ -8,9 +8,9 @@ def main(input_file):
 
     ## ---------------------------------- Récupération et convertion de l'input ---------------------------------- ##
 
-    # Ajout d'une ligne vide à la fin du fichier pour traiter correctement la dernière ligne
+    # Ajout d'un '#' à la fin du fichier pour traiter correctement la dernière ligne
     with open(input_file, 'a') as f:
-        f.write('\n')
+        f.write('#')
     # Récupération du fichier d'entrée
     with open(input_file, 'r') as f:
         tmp = f.readlines()
@@ -18,8 +18,10 @@ def main(input_file):
         # Création de la carte et du groupe d'aventuriers
         map = Map(lignes)
         group = Group(lignes)
-    #with open(input_file, 'w') as f:
-    #   f.writelines(lignes[:-1])
+    # Suppression du '#'
+    with open(input_file, 'w') as f:
+       lignes[-1] = lignes[-1][:-1] 
+       f.writelines(lignes)
 
 
     ## -------------------------------------------- Boucle principale -------------------------------------------- ##

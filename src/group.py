@@ -14,7 +14,7 @@ class Group:
             if line[0] == 'A':
                 self.__number_of_adventurers += 1
                 name, x, y, orientation, sequence = tuple(line[4:-1].split(" - "))
-                x, y = int(x), int(y)
+                x, y, name = int(x), int(y), name[1:]
                 adventurer = Adventurer(name, x, y, orientation, sequence)
                 self.__group.append(adventurer)
             else: continue

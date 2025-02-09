@@ -1,8 +1,6 @@
 from src.map import Map
 import unittest
 
-
-
 class TestCell(unittest.TestCase):
 
     def setUp(self):
@@ -26,12 +24,12 @@ class TestCell(unittest.TestCase):
             'T - 3 - 2 - 1\n',
             'T - 4 - 3 - 2\n',
             'A - Lara - 1 - 4 - E - GADAA\n',
-            'A - Kara - 4 - 1 - S - AA\n'
+            'A - Kara - 4 - 1 - S - AA'
         ]
 
         self.map = Map(input_file_1)
     
-    def test_getAccissibility(self):
+    def test_getAccessibility(self):
         self.assertTrue(self.map.getAccessibility(0, 3))
         self.assertTrue(self.map.getAccessibility(1, 3))
         self.assertFalse(self.map.getAccessibility(0, 2))

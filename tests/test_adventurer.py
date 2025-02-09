@@ -1,7 +1,6 @@
 from src.adventurer import Adventurer
 import unittest
 
-
 class TestCell(unittest.TestCase):
 
     def setUp(self):
