@@ -1,0 +1,46 @@
+C - 5 - 9
+M - 1 - 4
+M - 1 - 1
+M - 4 - 0
+M - 3 - 2
+M - 2 - 0
+M - 3 - 0
+M - 2 - 7
+M - 0 - 2
+M - 0 - 1
+M - 3 - 4
+T - 1 - 7 - 1
+T - 4 - 4 - 5
+T - 0 - 6 - 1
+T - 2 - 5 - 3
+T - 1 - 5 - 2
+T - 1 - 2 - 2
+T - 4 - 5 - 2
+T - 2 - 4 - 4
+T - 0 - 4 - 1
+T - 1 - 3 - 3
+T - 2 - 1 - 4
+T - 3 - 5 - 4
+T - 2 - 3 - 4
+T - 3 - 3 - 5
+T - 1 - 6 - 3
+A - Aventurier0 - 4 - 1 - N - ADDGAADAADDAAAAGDDGADAD
+A - Aventurier1 - 2 - 2 - S - GAGAAAAADAAGAAAADGGAA
+A - Aventurier2 - 4 - 8 - S - GAAADGDGDGDAGAGGD
+A - Aventurier3 - 0 - 5 - E - AAAADGAADDAADA
+A - Aventurier4 - 3 - 6 - N - DDADAAAADDDDDADDAG
+A - Aventurier5 - 4 - 3 - S - ADAAAGAGAGDAAAAADDDADGDDAA
+A - Aventurier6 - 4 - 6 - S - ADGDGAGGD
+A - Aventurier7 - 0 - 0 - E - DGDGADDGDGAAAGAGDDGG
+A - Aventurier8 - 0 - 3 - S - AGDAAGGDGADADGDDDADDAAA
+A - Aventurier9 - 2 - 6 - S - DAAGGAAAGAAGAGGAGAGAADAD
+A - Aventurier10 - 4 - 7 - O - AAAAGGAAGGAAADDDAGGAADDGA
+A - Aventurier11 - 2 - 8 - S - DAAADADADGDADAAAAA
+A - Aventurier12 - 1 - 8 - N - AAADGDGDAA
+A - Aventurier13 - 3 - 8 - N - GAAAD
+A - Aventurier14 - 0 - 8 - S - DADDGAADAAAGDGADAGGG
+A - Aventurier15 - 3 - 7 - S - DDGGGGAGGGGGAGAGDAG
+A - Aventurier16 - 4 - 2 - O - GAAADGD
+A - Aventurier17 - 0 - 7 - O - GADAGAAADAAAAAGDAG
+A - Aventurier18 - 1 - 0 - O - DADGAGAAAAAGGADAAAAGAGDADADADD
+A - Aventurier19 - 3 - 1 - O - AGAAD
